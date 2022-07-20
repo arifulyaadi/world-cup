@@ -58,8 +58,10 @@
 }
 .button{
     background-color: transparent;
-    border: 1px solid #DD0000;
-    color: #FFFFFF;
+    /* border: 1px solid #DD0000;
+    color: #FFFFFF; */
+    color: orange;
+    border: 1px solid orange;
     padding: 16px 25px;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif; 
@@ -69,14 +71,23 @@
     transition: .5s;
 }
 .button:hover{
-    background-color: #DD0000;
-    border: 1px solid #ffffff;
-    color: #FFFFFF;
+    background-color: orange;
+    border: 1px solid orange;
+    color: #161616;
     
     transition: .5s;
 }
 .f-s-left a i{
     margin-left: 10px;
+}
+.f-s-right{
+    position: relative
+}
+.f-s-right img{
+    width: 500px;
+    position: absolute;
+    bottom: -272px;
+    left: -150px;
 }
 
 
@@ -100,11 +111,12 @@
 }
 
 .event{
-    background-color: #FFFFFF;
+    background-color: orange;
     margin: 30px;
-    padding: 13px;
+    padding: 22px 12px;
     border-radius: 10px;
     transition: 0.2s;
+    border: 1px solid orange;
 }
 .event-content{
     transition: 0.2s;
@@ -121,13 +133,17 @@
     ;
 }
 .blog{
-    background-color: #DD0000;
+    background-color: #dd000000;
+    border: 1px solid orange;
 }
 .blog a{
-    color: #FFFFFF;
+    color: orange;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400
+}
+.blog i{
+    color: orange;
 }
 .s-c-right{
     display: grid;
@@ -237,9 +253,12 @@ footer{
     margin-top: 30px;
 }
 .footer-content .icons li a i{
-    color: #161616;
+    /* color: #161616;
     background-color: #DD0000;
-    border: 1px solid #DD0000;
+    border: 1px solid #DD0000; */
+    color: orange;
+    background-color: transparent;
+    border: 1px solid orange;
     height: 50px;
     width: 50px;
     text-align: center;
@@ -252,18 +271,67 @@ footer{
 .footer-content .icons li a i:hover{
     transform: rotate(360deg);
     transition: .5s;
-    background-color: transparent;
-    border: 1px solid #DD0000;
-    color: #FFFFFF;
+    background-color: orange;
+    border: 1px solid orange;
+    color: #161616;
 }
 .footer-content .icons .highlight-icon a i{
-    background-color: transparent !important;
+    /* background-color: transparent !important;
     border: 1px solid #DD0000 !important;
-    color: #FFFFFF !important;
+    color: #FFFFFF !important; */
+    background-color: orange;
+    border: 1px solid orange;
+    color: #161616;
 }
 .footer-content .icons .highlight-icon a i:hover{
-    color: #161616 !important;
+    /* color: #161616 !important;
     background-color: #DD0000 !important;
-    border: 1px solid #DD0000 !important;
+    border: 1px solid #DD0000 !important; */
+    color: orange;
+    background-color: transparent;
+    border: 1px solid orange;
 }
 
+
+
+
+
+
+
+
+/********************
+    second index
+*********************/
+.b-l-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px 0px 10px;
+}
+.b-l-content img{
+    width: 100%;
+}
+.b-l-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 15px;
+}
+.s-in{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.text h3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif; */
