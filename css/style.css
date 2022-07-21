@@ -399,12 +399,12 @@ footer{
             
         }
         .event{
-            background-color: #FFFFFF;
+            /* background-color: orange; */
             margin: 0px 0px 30px 0px;
             padding: 20px 10px;
             border-radius: 10px;
             transition: 0.2s;
-            border: 1px solid gray;
+            border: 1px solid orange;
         }
         .s-c-left{
             background-color: transparent;
@@ -416,17 +416,17 @@ footer{
             grid-template-columns: repeat(3,1fr);
             column-gap: 20px;
         }
-        .event a{
-            color: #161616;
+         .event a{
+            /* color: #161616; */
             font-size: 16px;
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
         }
-        .blog{
-            background-color: #DD0000;
-        }
+         .blog{
+            background-color: black;
+        } 
         .blog a, .blog i{
-            color: #ffffff;
+            color: orange;
         }
     
         .s-c-right{
@@ -521,9 +521,13 @@ footer{
             flex-direction: column;
         }
         .event {
-            padding: 15px 55px;
-            border: 1px solid gray;
+            padding: 15px 46px;
             width: fit-content;
+            border: 1px solid orange;
+        }
+        .blog{
+            background-color: #161616;
+            border: 1px solid black;
         }
         .s-c-right {
             display: grid;
